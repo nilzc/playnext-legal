@@ -27,6 +27,11 @@ hosted login page.
   features are processed to generate responses.
 - A per-user **usage counter** (number of AI actions) used to enforce free-tier
   limits.
+- If you choose to **save a search**, its query and results are stored so you
+  can reopen it later. Each of Recommend and Discover keeps a separate,
+  limited list per account (oldest entries drop off once the list is full) —
+  this is retained until you delete it or it's displaced by newer saves, not
+  on a fixed expiry.
 
 **From subscriptions (if you purchase PlayNext Pro):**
 - A **subscription/transaction record** (Apple transaction identifiers and
@@ -56,8 +61,10 @@ We do not sell your data or share it for advertising.
 
 ## Data retention
 
-- Cached library, achievement, and recommendation data is stored temporarily
-  to improve speed and is refreshed or expires automatically.
+- Cached library and achievement data is stored temporarily to improve speed
+  and is refreshed or expires automatically.
+- Saved searches (see above) are retained until you delete them, they're
+  displaced by newer saves, or you delete your account.
 - Your subscription record is retained while your subscription is active and as
   required for receipt/refund handling.
 
@@ -65,9 +72,9 @@ We do not sell your data or share it for advertising.
 
 You can permanently delete your account and all associated data from within the
 app: open the account menu (top-right) and choose **Delete Account**. This
-removes your subscription record, AI usage counters, and cached library data,
-and signs you out. Your Steam account is not affected. Deletion is immediate and
-cannot be undone.
+removes your subscription record, AI usage counters, saved searches, and
+cached library data, and signs you out. Your Steam account is not affected.
+Deletion is immediate and cannot be undone.
 
 You may also request deletion by contacting us at the address below.
 
