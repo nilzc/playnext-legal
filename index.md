@@ -72,9 +72,13 @@ We do not sell your data or share it for advertising.
 
 You can permanently delete your account and all associated data from within the
 app: open the account menu (top-right) and choose **Delete Account**. This
-removes your subscription record, AI usage counters, saved searches, and
-cached library data, and signs you out. Your Steam account is not affected.
-Deletion is immediate and cannot be undone.
+removes your subscription record, saved searches, and cached library data, and
+signs you out. Your Steam account is not affected. Deletion is immediate and
+cannot be undone.
+
+Your daily/minute AI usage counters (used only to enforce free-tier limits,
+not linked to any content) are retained rather than reset, so re-creating an
+account doesn't grant a new free-tier allowance.
 
 You may also request deletion by contacting us at the address below.
 
